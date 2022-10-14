@@ -59,7 +59,7 @@ button:hover {
 
 .cancelbtn, .signupbtn {
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 .container {
@@ -128,9 +128,16 @@ li a:hover {
     </label>
     
     <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
-    </div>
+      
+   <button onclick="myFunction()">Sign up</button>
+<button type="button" class="cancelbtn">Cancel</button>
+      <div class="container">
+<script>
+function myFunction() {
+  alert("Sign up \nSuccessful");
+}
+</script>
+  </div>
   </div>
 </form>
 
